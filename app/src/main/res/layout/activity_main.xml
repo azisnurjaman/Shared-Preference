@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/edit_text"
+        android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="text|textMultiLine"
@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="© azisnurjaman"
-        android:layout_below="@+id/edit_text"
+        android:layout_below="@+id/editText"
         android:gravity="center|bottom"
         android:textColor="@color/cr"/>
 
