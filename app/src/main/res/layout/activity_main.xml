@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="20dp"
     tools:context=".MainActivity">
 
     <EditText
@@ -21,9 +22,10 @@
         android:id="@+id/cr"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="© azisnurjaman"
         android:layout_below="@+id/editText"
+        android:layout_marginTop="1dp"
         android:gravity="center|bottom"
-        android:textColor="@color/cr"/>
+        android:text="@string/cr"
+        android:textColor="@color/cr" />
 
 </RelativeLayout>
